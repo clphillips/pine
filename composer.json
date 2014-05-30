@@ -1,0 +1,21 @@
+{
+    "name": "pine/pine",
+    "description": "A minimalistic, rapid, application development framework.",
+    "homepage": "http://github.com/clphillips/pine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cody Phillips",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "~1.9"
+    },
+    "config": {
+        "vendor_dir": "src/vendor/"  
+    },
+    "autoload": {
+        "psr-4": {"Pine\\": "src/vendor/Pine/"}
+    }
+}
